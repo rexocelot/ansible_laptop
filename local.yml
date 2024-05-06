@@ -2,7 +2,7 @@
 - name: Deploy Fedora config in laptop
   hosts: localhost
   tasks:
-    - name: Install RPM packages
+    #- name: Install RPM packages
       include_tasks: tasks/rpmpackages.yml
-    - name: Install Flatpak packages
+    #- name: Install Flatpak packages
       include_tasks: tasks/flatpakpackages.yml
