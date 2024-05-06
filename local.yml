@@ -8,5 +8,5 @@
   tasks:
     - name: Install RPM packages
       include_tasks: tasks/rpmpackages.yml
-    - name: Install Flatpak packages
-      include_tasks: tasks/flatpakpackages.yml
+    # - name: Install Flatpak packages
+    #   include_tasks: tasks/flatpakpackages.yml
