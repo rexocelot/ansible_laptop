@@ -6,5 +6,4 @@
       changed_when: False
 
   tasks:
-    include_tasks:
-      file: tasks/packages.yml
+    include_tasks: packages.yml
