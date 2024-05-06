@@ -1,0 +1,8 @@
+- name: Install multiple packages
+  community.general.flatpak:
+    name:
+      - org.gimp.GIMP
+      - org.onlyoffice.desktopeditors
+      - org.gnome.World.Secrets
+      
+      
