@@ -1,3 +1,4 @@
+---
 - hosts: localhost
   become: true
   pre_tasks:
@@ -6,4 +7,6 @@
       changed_when: false
 
   tasks:
-    import_tasks: tasks/packages.yml
+    - name: Instalar paquetes
+      include_tasks: tasks/packages.yml
+      
