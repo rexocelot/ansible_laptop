@@ -1,13 +1,14 @@
   - name: Add flathub flatpak repository remote to the user installation
+    become: true
     community.general.flatpak_remote:
       name: flathub
       flatpakrepo_url: https://flathub.org/repo/flathub.flatpakrepo
       state: present
-      #method: user
+      method: user
   - name: Install flatpak packages
     community.general.flatpak:
       name:
         - org.videolan.VLC
         #- org.gnome.World.Secrets
       state: present
-      #method: user
+      method: user
