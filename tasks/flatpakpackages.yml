@@ -1,4 +1,5 @@
   - name: Install flatpak packages
+  
     community.general.flatpak:
       name:
         - org.videolan.VLC
