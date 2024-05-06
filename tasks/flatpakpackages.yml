@@ -6,7 +6,7 @@
     state: present
     # method: user
 
-- name: Install flatpak packages
+- name: Deploy flatpak packages
   community.general.flatpak:
     name:
       - org.videolan.VLC
