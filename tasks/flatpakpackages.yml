@@ -2,6 +2,6 @@
     community.general.flatpak:
       name:
         - org.videolan.VLC
-        - org.gnome.World.Secrets
+        #- org.gnome.World.Secrets
       state: present
       method: user
