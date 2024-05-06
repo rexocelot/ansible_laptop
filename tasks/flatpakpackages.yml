@@ -1,7 +1,7 @@
-- name: Install flatpak packages
-  flatpak:
-    name:
-      - org.videolan.VLC
-      - org.gnome.World.Secrets
-    state: present
-    method: user
+  - name: Install flatpak packages
+    community.general.flatpak:
+      name:
+        - org.videolan.VLC
+        - org.gnome.World.Secrets
+      state: present
+      method: user
