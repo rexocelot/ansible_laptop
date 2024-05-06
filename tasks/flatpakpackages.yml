@@ -1,6 +1,5 @@
 - name: Install Flatpak packages
   community.general.flatpak:
     name:
-      - org.gimp.GIMP
-      - org.onlyoffice.desktopeditors
+      - org.videolan.VLC
       - org.gnome.World.Secrets
