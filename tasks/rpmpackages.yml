@@ -1,8 +1,8 @@
-  - name: Update repositories
+  - name: Update RPM repositories
     become: true
     dnf: update_cache=yes
     changed_when: false
-    
+
   - name: Install RPM packages
     become: true
     dnf: name={{ item }}
