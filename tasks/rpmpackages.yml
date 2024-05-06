@@ -1,8 +1,6 @@
   - name: Install RPM packages
-    dnf: name={{item}}
+    dnf: name={{ item }}
     with_items:
       - htop
       - mc
       - byobu
-      
-
