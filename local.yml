@@ -2,10 +2,10 @@
   become: true
   tasks:
   - name: Install htop
-    apt: name=htop
+    dnf: name=htop
 
   - name: Install mc
-    apt: name=mc
+    dnf: name=mc
     
-  - name: Install tmux
-    apt: name=tmux
+  - name: Install byobu
+    dnf: name=byobu
