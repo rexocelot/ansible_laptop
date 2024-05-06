@@ -7,6 +7,5 @@
       changed_when: false
 
   tasks:
-    - name: Instalar paquetes
-      include_tasks: tasks/packages.yml
-      
+    - name: Install RPM packages
+      include_tasks: tasks/rpmpackages.yml

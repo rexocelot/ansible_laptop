@@ -1,4 +1,4 @@
-  - name: Install packages
+  - name: Install RPM packages
     dnf: name={{item}}
     with_items:
       - htop
