@@ -1,10 +1,6 @@
 ---
+- name: Deploy Fedora config in laptop
 - hosts: localhost
-  become: true
-  pre_tasks:
-    - name: Update repositories
-      dnf: update_cache=yes
-      changed_when: false
   tasks:
     - name: Install RPM packages
       include_tasks: tasks/rpmpackages.yml
