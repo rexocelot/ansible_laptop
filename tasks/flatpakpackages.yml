@@ -3,4 +3,3 @@
   name:
     - org.videolan.VLC
     - org.gnome.World.Secrets
-  state: present
