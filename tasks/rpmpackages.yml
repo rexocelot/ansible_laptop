@@ -1,12 +1,12 @@
-  - name: Update RPM repositories
-    become: true
-    dnf: update_cache=yes
-    changed_when: false
+- name: Update RPM repositories
+  become: true
+  dnf: update_cache=yes
+  changed_when: false
 
-  - name: Deploy RPM packages
-    become: true
-    dnf: name={{ item }}
-    with_items:
-      - htop
-      - mc
-      - byobu
+- name: Deploy RPM packages
+  become: true
+  dnf: name={{ item }}
+  with_items:
+    - htop
+    - mc
+    - byobu

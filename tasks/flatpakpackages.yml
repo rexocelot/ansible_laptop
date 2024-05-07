@@ -3,3 +3,4 @@
     name: flathub
     flatpakrepo_url: 'https://flathub.org/repo/flathub.flatpakrepo'
     state: present
+    method: user
