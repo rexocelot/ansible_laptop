@@ -3,8 +3,3 @@
     name: flathub
     flatpakrepo_url: 'https://flathub.org/repo/flathub.flatpakrepo'
     state: present
-- name: Deploy flatpak packages
-  community.general.flatpak:
-    name:
-    - org.videolan.VLC
-    state: present
