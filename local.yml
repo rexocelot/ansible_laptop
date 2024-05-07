@@ -6,4 +6,4 @@
       include_tasks: tasks/rpmpackages.yml
       
     - name: Install Flatpak packages
-      include_tasks: tasks/flatpakpackages.yml    
+      include_tasks: tasks/flatpakpackages.yml   
