@@ -10,3 +10,9 @@
     - htop
     - mc
     - byobu
+    - gnome-tweaks
+    - oci-cli
+    - autorestic
+    - fastfetch
+    - zsh-syntax-highlighting
+    - vim-enhanced

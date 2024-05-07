@@ -9,4 +9,24 @@
     name:
       - com.yacreader.YACReader
       - com.anydesk.Anydesk
+      - org.telegram.desktop
+      - org.onlyoffice.desktopeditors
+      - org.nickvision.tubeconverter
+      - org.keepassxc.KeePassXC
+      - org.gnome.World.Secrets
+      - org.gnome.Weather
+      - org.gnome.Shotwell
+      - org.gnome.Extensions
+      - org.filezillaproject.Filezilla
+      - org.audacityteam.Audacity
+      - no.mifi.losslesscut 
+      - net.lutris.Lutris
+      - io.mpv.Mpv
+      - io.gitlab.theevilskeleton.Upscaler
+      - io.gitlab.adhami3310.Impression
+      - io.github.giantpinkrobots.varia
+      - com.transmissionbt.Transmission 
+      - com.spotify.Client
+      - com.github.jeromerobert.pdfarranger
+      - com.calibre_ebook.calibre
 
