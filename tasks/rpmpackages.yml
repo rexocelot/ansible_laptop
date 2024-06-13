@@ -13,6 +13,11 @@
     - gnome-tweaks
     - oci-cli
     - autorestic
+    - restic
     - fastfetch
     - zsh-syntax-highlighting
+    - zsh-autosuggestions
+    - zsh
     - vim-enhanced
+    - bat
+    - zoxide
