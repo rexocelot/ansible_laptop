@@ -21,3 +21,6 @@
     - vim-enhanced
     - bat
     - zoxide
+    - fzf
+    - eza
+    - flatpak
