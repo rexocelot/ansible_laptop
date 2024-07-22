@@ -9,7 +9,8 @@
   with_items:
     - htop
     - mc
-    - byobu
+    - nvim
+    - tmux
     - gnome-tweaks
     - oci-cli
     - autorestic
