@@ -12,7 +12,6 @@
       - org.telegram.desktop
       - org.onlyoffice.desktopeditors
       - org.nickvision.tubeconverter
-      - org.keepassxc.KeePassXC
       - org.gnome.World.Secrets
       - org.gnome.Weather
       - org.gnome.Shotwell
@@ -29,4 +28,6 @@
       - com.spotify.Client
       - com.github.jeromerobert.pdfarranger
       - com.calibre_ebook.calibre
-
+      - org.localsend.localsend_app
+      - org.gnome.EasyTAG
+      - io.bassi.Amberol 
