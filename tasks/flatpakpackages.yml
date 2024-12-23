@@ -30,4 +30,6 @@
       - com.calibre_ebook.calibre
       - org.localsend.localsend_app
       - org.gnome.EasyTAG
-      - io.bassi.Amberol 
+      - io.bassi.Amberol
+      - it.mijorus.gearleveri
+      - org.fedoraproject.MediaWriter
